@@ -26,7 +26,7 @@ The weight will be large if that item can represent that class (the attribute). 
 
 #### Latent Factor Model formula: calculate user($u$)'s interest of item($i$)
 
-$$Preference(u, i) = r_{ui} = {p_u}^T q_i = \displaystyle\sum_{f=1}^{F} p_{u,k}q_{i,k}$$, where $k$ is $(u,i)$ pair, and $f$ is the indicate of per pair in $k$.
+$\Preference(u, i) = r_{ui} = {p_u}^T q_i = \displaystyle\sum_{f=1}^{F} p_{u,k}q_{i,k}$, where $k$ is $(u,i)$ pair, and $f$ is the indicate of per pair in $k$.
 
 $p_{u,k}$ and $q_{i,k}$ are the parameter of LFM model, $p_{u,k}$ measures the association between user($u$)'s interest and the $k$th latent factor, and $q_{i,k}$ measures the association between the $k$th latent factor and item($i$).
 
